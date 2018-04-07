@@ -30,31 +30,17 @@ mainFunction(action, argument);
 
 function mainFunction(action, argument) {
 
-	argument = actualArgument();
 
 	switch (action) {
 		case "my-tweets": 
+		argument = actualArgument();
 		getMyTweets();
-		break;
-
-		case "spotify-this-song":
-		
-		// First get song title argument.
-		songName = argument;
-
-		if (songName === "") {
-			getSongInfo("The Sign Ace of Base");
-		} else {
-			// Get song information from Spotify.
-			getSongInfo(songName);
-		}
-		
 		break;
 
 		case "movie-this":
 
 		// First get movie title argument.
-		
+		argument = actualArgument();
 		movieTitle = argument;
 
 		if (movieTitle === "") {
@@ -66,9 +52,23 @@ function mainFunction(action, argument) {
 		break;
 
 		case "do-what-it-says": 
+		doWhatItSays();
+		break;
+
+		case "spotify-this-song":
 		
-		randomArgument = argument;
-		doWhatItSays(randomArgument);
+		if (songName) {
+			getSongInfo(songName);
+		}
+		argument = actualArgument();
+		// First get song title argument.
+		songName = argument;
+
+		if (songName) {
+			getSongInfo(songName);
+		} else if (songName === ""){
+		getSongInfo("The Sign Ace of Base");
+		}
 		break;
 
 		default:
@@ -78,15 +78,7 @@ function mainFunction(action, argument) {
 }
 
 function actualArgument() {
-
-	// Stores all possible arguments in array.
-	//argumentArray = process.argv;
-
-	// Loops through words in node argument.
-	//for (var i = 3; i < argumentArray.length; i++) {
-		//argument += argumentArray[i];
 		argument= process.argv.slice(3).join("+");
-	//}
 
 	return argument;
 }
@@ -136,47 +128,6 @@ function getsongName() {
 
 	return songName;
 }
-
-/*function lookupSpecificSong() {
-
-	// Access spotify API through spotify module.
-
-	// Calls spotify API to retrieve a specific track, The Sign, Ace of Base.
-	spotify.search({type: 'track', query: "The Sign"}, function(err, data) {
-		if (err) {
-			console.error(err);
-			return
-		}
-
-		//console.log(data);
-
-		// Priting the artist, track name, preview url, and album name.
-		var artistsArray = data.tracks.items[0].album.artists;
-
-		var artistsNames = [];
-
-		
-		for (var i = 0; i < artistsArray.length; i++) {
-			artistsNames.push(artistsArray[i].name);
-		}
-
-		
-		var artists = artistsNames.join(", ");
-
-		// Priting the artist(s), track name, preview url, and album name.
-		console.log("Artist(s): " + artists);
-		console.log("Song: " + data.tracks.items[0].name)
-		console.log("Spotify preview URL: " + data.tracks.items[0].preview_url)
-		console.log("Album name: " + data.tracks.items[0].album.name);
-
-		
-		// Prints the artist, track name, preview url, and album name.
-		logOutput("Artist: " + data.artists[0].name);
-		logOutput("Song: " + data.name);
-		logOutput("Spotify Preview URL: " + data.preview_url);
-		logOutput("Album Name: " + data.album.name);
-	});
-}*/
 
 function getSongInfo(songName) {
 
@@ -280,9 +231,12 @@ function doWhatItSays() {
 	
 				// Sets optional third argument to second item in array.
 				argument = randomArray[1];
-	
+				
+				console.log("Action: "+action +"  Argument :"+argument);
+			   songName=argument;
 				// Calls main controller to do something based on action and argument.
 				mainFunction(action, argument);
+
 			}
 		});
 	}

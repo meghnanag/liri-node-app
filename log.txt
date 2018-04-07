@@ -18,3 +18,179 @@
 10:25:17.645 INFO  Song: The Sign 
 10:25:17.645 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=ab824636d9d94dc0946e6b18cb834303 
 10:25:17.660 INFO  Album Name: The Sign (US Album) [Remastered] 
+10:27:14.435 INFO  Artist: Ace of Base 
+10:27:14.435 INFO  Song: The Sign 
+10:27:14.440 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=ab824636d9d94dc0946e6b18cb834303 
+10:27:14.440 INFO  Album Name: The Sign (US Album) [Remastered] 
+10:27:27.463 INFO  Artist: Michael Learns To Rock 
+10:27:27.463 INFO  Song: Paint My Love 
+10:27:27.463 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/e5f150fd6b0d583933b30255eb850687e621ed2f?cid=ab824636d9d94dc0946e6b18cb834303 
+10:27:27.463 INFO  Album Name: 19 Love Ballads 
+10:27:49.467 INFO  Movie Title: Mr. Nobody 
+10:27:49.467 INFO  Release Year: 2009 
+10:27:49.467 INFO  IMDB Rating: 7.9 
+10:27:49.467 INFO  Country Produced In: Belgium, Germany, Canada, France, USA, UK 
+10:27:49.467 INFO  Language: English, Mohawk 
+10:27:49.467 INFO  Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible. 
+10:27:49.467 INFO  Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham 
+10:27:49.467 INFO  Rotten Tomatoes Rating: 63/100 
+10:28:21.227 INFO  Movie Title: While You Were Sleeping 
+10:28:21.227 INFO  Release Year: 1995 
+10:28:21.241 INFO  IMDB Rating: 6.7 
+10:28:21.241 INFO  Country Produced In: USA 
+10:28:21.241 INFO  Language: English 
+10:28:21.241 INFO  Plot: A hopeless romantic Chicago Transit Authority token collector is mistaken for the fiancée of a coma patient. 
+10:28:21.241 INFO  Actors: Sandra Bullock, Bill Pullman, Peter Gallagher, Peter Boyle 
+10:28:21.245 INFO  Rotten Tomatoes Rating: 67/100 
+10:28:46.325 INFO  Artist: Ace of Base 
+10:28:46.325 INFO  Song: The Sign 
+10:28:46.325 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=ab824636d9d94dc0946e6b18cb834303 
+10:28:46.325 INFO  Album Name: The Sign (US Album) [Remastered] 
+10:31:32.280 INFO  Artist: Ace of Base 
+10:31:32.280 INFO  Song: The Sign 
+10:31:32.280 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=ab824636d9d94dc0946e6b18cb834303 
+10:31:32.280 INFO  Album Name: The Sign (US Album) [Remastered] 
+10:32:52.392 INFO  Artist: Ace of Base 
+10:32:52.392 INFO  Song: The Sign 
+10:32:52.392 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=ab824636d9d94dc0946e6b18cb834303 
+10:32:52.392 INFO  Album Name: The Sign (US Album) [Remastered] 
+10:33:32.509 INFO  Artist: Ace of Base 
+10:33:32.510 INFO  Song: The Sign 
+10:33:32.510 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=ab824636d9d94dc0946e6b18cb834303 
+10:33:32.510 INFO  Album Name: The Sign (US Album) [Remastered] 
+10:38:39.331 INFO  Artist: Ace of Base 
+10:38:39.331 INFO  Song: The Sign 
+10:38:39.331 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=ab824636d9d94dc0946e6b18cb834303 
+10:38:39.331 INFO  Album Name: The Sign (US Album) [Remastered] 
+10:42:32.834 INFO  Artist: Michael Learns To Rock 
+10:42:32.834 INFO  Song: Paint My Love 
+10:42:32.834 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/e5f150fd6b0d583933b30255eb850687e621ed2f?cid=ab824636d9d94dc0946e6b18cb834303 
+10:42:32.834 INFO  Album Name: 19 Love Ballads 
+10:42:43.988 INFO  Artist: Ace of Base 
+10:42:43.988 INFO  Song: The Sign 
+10:42:43.988 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=ab824636d9d94dc0946e6b18cb834303 
+10:42:43.988 INFO  Album Name: The Sign (US Album) [Remastered] 
+10:43:20.235 INFO  Artist: Ace of Base 
+10:43:20.241 INFO  Song: The Sign 
+10:43:20.241 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=ab824636d9d94dc0946e6b18cb834303 
+10:43:20.241 INFO  Album Name: The Sign (US Album) [Remastered] 
+10:50:47.459 INFO  Artist: Ace of Base 
+10:50:47.460 INFO  Song: The Sign 
+10:50:47.460 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=ab824636d9d94dc0946e6b18cb834303 
+10:50:47.461 INFO  Album Name: The Sign (US Album) [Remastered] 
+10:51:04.830 INFO  Artist: Michael Learns To Rock 
+10:51:04.830 INFO  Song: Paint My Love 
+10:51:04.830 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/e5f150fd6b0d583933b30255eb850687e621ed2f?cid=ab824636d9d94dc0946e6b18cb834303 
+10:51:04.830 INFO  Album Name: 19 Love Ballads 
+10:51:27.290 INFO  Artist: Ace of Base 
+10:51:27.290 INFO  Song: The Sign 
+10:51:27.306 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=ab824636d9d94dc0946e6b18cb834303 
+10:51:27.306 INFO  Album Name: The Sign (US Album) [Remastered] 
+10:58:55.523 INFO  Artist: Ace of Base 
+10:58:55.523 INFO  Song: The Sign 
+10:58:55.523 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=ab824636d9d94dc0946e6b18cb834303 
+10:58:55.523 INFO  Album Name: The Sign (US Album) [Remastered] 
+10:59:30.128 INFO  Artist: Michael Learns To Rock 
+10:59:30.128 INFO  Song: Paint My Love 
+10:59:30.128 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/e5f150fd6b0d583933b30255eb850687e621ed2f?cid=ab824636d9d94dc0946e6b18cb834303 
+10:59:30.128 INFO  Album Name: 19 Love Ballads 
+11:00:14.900 INFO  Artist: Michael Learns To Rock 
+11:00:14.900 INFO  Song: Paint My Love 
+11:00:14.900 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/e5f150fd6b0d583933b30255eb850687e621ed2f?cid=ab824636d9d94dc0946e6b18cb834303 
+11:00:14.900 INFO  Album Name: 19 Love Ballads 
+11:00:27.173 INFO  Artist: Ace of Base 
+11:00:27.173 INFO  Song: The Sign 
+11:00:27.173 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=ab824636d9d94dc0946e6b18cb834303 
+11:00:27.173 INFO  Album Name: The Sign (US Album) [Remastered] 
+11:00:40.551 INFO  Artist: Ace of Base 
+11:00:40.551 INFO  Song: The Sign 
+11:00:40.551 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=ab824636d9d94dc0946e6b18cb834303 
+11:00:40.551 INFO  Album Name: The Sign (US Album) [Remastered] 
+11:01:56.347 INFO  Artist: Ace of Base 
+11:01:56.347 INFO  Song: The Sign 
+11:01:56.347 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=ab824636d9d94dc0946e6b18cb834303 
+11:01:56.347 INFO  Album Name: The Sign (US Album) [Remastered] 
+11:04:03.723 INFO  Artist: Michael Learns To Rock 
+11:04:03.723 INFO  Song: Paint My Love 
+11:04:03.723 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/e5f150fd6b0d583933b30255eb850687e621ed2f?cid=ab824636d9d94dc0946e6b18cb834303 
+11:04:03.723 INFO  Album Name: 19 Love Ballads 
+11:04:26.221 INFO  Artist: Ace of Base 
+11:04:26.221 INFO  Song: The Sign 
+11:04:26.221 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=ab824636d9d94dc0946e6b18cb834303 
+11:04:26.221 INFO  Album Name: The Sign (US Album) [Remastered] 
+11:04:41.847 INFO  Artist: Ace of Base 
+11:04:41.847 INFO  Song: The Sign 
+11:04:41.863 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=ab824636d9d94dc0946e6b18cb834303 
+11:04:41.863 INFO  Album Name: The Sign (US Album) [Remastered] 
+11:05:37.847 INFO  Artist: Ace of Base 
+11:05:37.847 INFO  Song: The Sign 
+11:05:37.847 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=ab824636d9d94dc0946e6b18cb834303 
+11:05:37.847 INFO  Album Name: The Sign (US Album) [Remastered] 
+11:11:01.331 INFO  Artist: Ace of Base 
+11:11:01.331 INFO  Song: The Sign 
+11:11:01.331 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=ab824636d9d94dc0946e6b18cb834303 
+11:11:01.331 INFO  Album Name: The Sign (US Album) [Remastered] 
+11:15:28.250 INFO  Movie Title: Mr. Nobody 
+11:15:28.250 INFO  Release Year: 2009 
+11:15:28.251 INFO  IMDB Rating: 7.9 
+11:15:28.251 INFO  Country Produced In: Belgium, Germany, Canada, France, USA, UK 
+11:15:28.251 INFO  Language: English, Mohawk 
+11:15:28.251 INFO  Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible. 
+11:15:28.252 INFO  Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham 
+11:15:28.252 INFO  Rotten Tomatoes Rating: 63/100 
+11:15:47.347 INFO  Movie Title: While You Were Sleeping 
+11:15:47.347 INFO  Release Year: 1995 
+11:15:47.347 INFO  IMDB Rating: 6.7 
+11:15:47.347 INFO  Country Produced In: USA 
+11:15:47.347 INFO  Language: English 
+11:15:47.347 INFO  Plot: A hopeless romantic Chicago Transit Authority token collector is mistaken for the fiancée of a coma patient. 
+11:15:47.347 INFO  Actors: Sandra Bullock, Bill Pullman, Peter Gallagher, Peter Boyle 
+11:15:47.347 INFO  Rotten Tomatoes Rating: 67/100 
+11:16:04.140 INFO  Artist: Ace of Base 
+11:16:04.155 INFO  Song: The Sign 
+11:16:04.155 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=ab824636d9d94dc0946e6b18cb834303 
+11:16:04.155 INFO  Album Name: The Sign (US Album) [Remastered] 
+11:16:27.166 INFO  Artist: Michael Learns To Rock 
+11:16:27.166 INFO  Song: Paint My Love 
+11:16:27.166 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/e5f150fd6b0d583933b30255eb850687e621ed2f?cid=ab824636d9d94dc0946e6b18cb834303 
+11:16:27.166 INFO  Album Name: 19 Love Ballads 
+11:16:44.370 INFO  Artist: Ace of Base 
+11:16:44.371 INFO  Song: The Sign 
+11:16:44.371 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=ab824636d9d94dc0946e6b18cb834303 
+11:16:44.371 INFO  Album Name: The Sign (US Album) [Remastered] 
+11:17:25.364 INFO  Artist: Ace of Base 
+11:17:25.364 INFO  Song: The Sign 
+11:17:25.364 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=ab824636d9d94dc0946e6b18cb834303 
+11:17:25.364 INFO  Album Name: The Sign (US Album) [Remastered] 
+11:28:14.752 INFO  Artist: Ace of Base 
+11:28:14.752 INFO  Song: The Sign 
+11:28:14.752 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=ab824636d9d94dc0946e6b18cb834303 
+11:28:14.752 INFO  Album Name: The Sign (US Album) [Remastered] 
+11:43:37.065 INFO  Artist: Michael Learns To Rock 
+11:43:37.065 INFO  Song: Paint My Love 
+11:43:37.065 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/e5f150fd6b0d583933b30255eb850687e621ed2f?cid=ab824636d9d94dc0946e6b18cb834303 
+11:43:37.065 INFO  Album Name: 19 Love Ballads 
+11:44:14.552 INFO  Artist: Ace of Base 
+11:44:14.552 INFO  Song: The Sign 
+11:44:14.552 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=ab824636d9d94dc0946e6b18cb834303 
+11:44:14.567 INFO  Album Name: The Sign (US Album) [Remastered] 
+11:44:38.317 INFO  Artist: Ace of Base 
+11:44:38.317 INFO  Song: The Sign 
+11:44:38.317 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=ab824636d9d94dc0946e6b18cb834303 
+11:44:38.317 INFO  Album Name: The Sign (US Album) [Remastered] 
+11:44:55.595 INFO  Artist: Ace of Base 
+11:44:55.595 INFO  Song: The Sign 
+11:44:55.595 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=ab824636d9d94dc0946e6b18cb834303 
+11:44:55.595 INFO  Album Name: The Sign (US Album) [Remastered] 
+11:44:55.625 INFO  Artist: Backstreet Boys 
+11:44:55.626 INFO  Song: I Want It That Way 
+11:44:55.627 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=ab824636d9d94dc0946e6b18cb834303 
+11:44:55.627 INFO  Album Name: The Hits--Chapter One 
+11:45:19.554 INFO  Movie Title: Mr. Nobody 
+11:45:19.554 INFO  Release Year: 2009 
+11:45:19.554 INFO  IMDB Rating: 7.9 
+11:45:19.554 INFO  Country Produced In: Belgium, Germany, Canada, France, USA, UK 
+11:45:19.554 INFO  Language: English, Mohawk 
+11:45:19.554 INFO  Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible. 
+11:45:19.554 INFO  Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham 
+11:45:19.554 INFO  Rotten Tomatoes Rating: 63/100 
