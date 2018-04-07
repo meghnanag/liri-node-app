@@ -87,14 +87,14 @@ function getMyTweets() {
 	var params = {q: '@codingteststuff', count: 20};
 
 	// Shows last 20 tweets and when created in terminal.
-	client.get('search/tweets', params, function(error, tweets, response) {
+	client.get('statuses/user_timeline', params, function(error, tweets, response) {
 	  if (!error) {
 
 	  	// Loop through tweets and print out tweet text and create date.
-	  	for (var i = 0; i < tweets.statuses.length; i++) {
-	  		var tweetText = tweets.statuses[i].text;
+	  	for (var i = 0; i < tweets.length; i++) {
+	  		var tweetText = tweets[i].text;
 	  		console.log("Here's the tweet's text: " + tweetText);
-	  		var tweetCreationDate = tweets.statuses[i].created_at;
+	  		var tweetCreationDate = tweets[i].created_at;
 	  		console.log("Here's the tweet's creation date: " + tweetCreationDate);
 	  	}
 	  } else {
