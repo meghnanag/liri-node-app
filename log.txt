@@ -1,0 +1,20 @@
+10:15:34.680 INFO  Artist: Michael Learns To Rock 
+10:15:34.680 INFO  Song: Paint My Love 
+10:15:34.680 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/e5f150fd6b0d583933b30255eb850687e621ed2f?cid=ab824636d9d94dc0946e6b18cb834303 
+10:15:34.680 INFO  Album Name: 19 Love Ballads 
+10:19:48.752 INFO  Artist: Michael Learns To Rock 
+10:19:48.752 INFO  Song: Paint My Love 
+10:19:48.755 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/e5f150fd6b0d583933b30255eb850687e621ed2f?cid=ab824636d9d94dc0946e6b18cb834303 
+10:19:48.755 INFO  Album Name: 19 Love Ballads 
+10:22:37.306 INFO  Artist: Ty Dolla $ign 
+10:22:37.306 INFO  Song: Or Nah (feat. The Weeknd, Wiz Khalifa and DJ Mustard) - Remix 
+10:22:37.306 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/70f126c139847335bc03c756c55b80c99892268e?cid=ab824636d9d94dc0946e6b18cb834303 
+10:22:37.306 INFO  Album Name: Or Nah (feat. The Weeknd, Wiz Khalifa and DJ Mustard) [Remix Version] 
+10:23:37.068 INFO  Artist: Rita Ora 
+10:23:37.068 INFO  Song: Your Song 
+10:23:37.068 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/91a31303c4101d8cdd1a7a3894644cc236c6e776?cid=ab824636d9d94dc0946e6b18cb834303 
+10:23:37.068 INFO  Album Name: Your Song 
+10:25:17.645 INFO  Artist: Ace of Base 
+10:25:17.645 INFO  Song: The Sign 
+10:25:17.645 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=ab824636d9d94dc0946e6b18cb834303 
+10:25:17.660 INFO  Album Name: The Sign (US Album) [Remastered] 

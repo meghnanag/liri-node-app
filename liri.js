@@ -14,7 +14,7 @@ var log = require('simple-node-logger').createSimpleFileLogger( filename );
 log.setLevel('all');
 
 // Creates empty string to hold song title.
-var songTitle = "";
+var songName = "";
 
 // Creates empty string to hold movie title.
 var movieTitle = "";
@@ -26,9 +26,9 @@ var argument = "";
 
 var action = process.argv[2];
 
-doSomething(action, argument);
+mainFunction(action, argument);
 
-function doSomething(action, argument) {
+function mainFunction(action, argument) {
 
 	argument = actualArgument();
 
@@ -40,13 +40,13 @@ function doSomething(action, argument) {
 		case "spotify-this-song":
 		
 		// First get song title argument.
-		songTitle = argument;
+		songName = argument;
 
-		if (songTitle === "") {
-			lookupSpecificSong();
+		if (songName === "") {
+			getSongInfo("The Sign Ace of Base");
 		} else {
 			// Get song information from Spotify.
-			getSongInfo(songTitle);
+			getSongInfo(songName);
 		}
 		
 		break;
@@ -80,12 +80,13 @@ function doSomething(action, argument) {
 function actualArgument() {
 
 	// Stores all possible arguments in array.
-	argumentArray = process.argv;
+	//argumentArray = process.argv;
 
 	// Loops through words in node argument.
-	for (var i = 3; i < argumentArray.length; i++) {
-		argument += argumentArray[i];
-	}
+	//for (var i = 3; i < argumentArray.length; i++) {
+		//argument += argumentArray[i];
+		argument= process.argv.slice(3).join("+");
+	//}
 
 	return argument;
 }
@@ -123,20 +124,20 @@ function getMyTweets() {
 // spotify-this-song
 // If no song is provided, default to "The Sign" by Ace of Base.
 
-function getSongTitle() {
+function getsongName() {
 	// Stores all the song title arguments in array.
-	var songTitleArgument = process.argv;
+	var songNameArgument = process.argv;
 
 	// Loops through words in node argument.
 	// To be able to pass song title as a parameter to call to Spotify API.
-	for (var i = 3; i < songTitleArgument.length; i++) {
-		songTitle += songTitleArgument[i];
+	for (var i = 3; i < songNameArgument.length; i++) {
+		songName += songNameArgument[i];
 	}
 
-	return songTitle;
+	return songName;
 }
 
-function lookupSpecificSong() {
+/*function lookupSpecificSong() {
 
 	// Access spotify API through spotify module.
 
@@ -150,25 +151,6 @@ function lookupSpecificSong() {
 		//console.log(data);
 
 		// Priting the artist, track name, preview url, and album name.
-		console.log("Artist: " + data.artists[0].name);
-		console.log("Song: " + data.name);
-		console.log("Spotify preview URL: " + data.preview_url);
-		console.log("Album name: " + data.album.name);
-	});
-}
-
-function getSongInfo(songTitle) {
-
-	// Access spotify API through spotify module.
-	
-	console.log("Song title: " + songTitle);
-
-	// Calls spotify API to retrieve a track.
-	spotify.search({type: 'track', query: songTitle}, function(err, data) {
-		if (err) {
-			console.error(err);
-			return
-		}
 		var artistsArray = data.tracks.items[0].album.artists;
 
 		var artistsNames = [];
@@ -193,6 +175,45 @@ function getSongInfo(songTitle) {
 		logOutput("Song: " + data.name);
 		logOutput("Spotify Preview URL: " + data.preview_url);
 		logOutput("Album Name: " + data.album.name);
+	});
+}*/
+
+function getSongInfo(songName) {
+
+	// Access spotify API through spotify module.
+	
+	console.log("Song title: " + songName);
+
+	// Calls spotify API to retrieve a track.
+	spotify.search({type: 'track', query: songName}, function(err, data) {
+		if (err) {
+			console.error(err);
+			return
+		}
+		var artistsArray = data.tracks.items[0].album.artists;
+
+		var artistsNames = [];
+
+		
+		for (var i = 0; i < artistsArray.length; i++) {
+			artistsNames.push(artistsArray[i].name);
+		}
+
+		
+		var artists = artistsNames.join(", ");
+
+		// Priting the artist(s), track name, preview url, and album name.
+		console.log("Artist(s): " + artists);
+		console.log("Song: " + data.tracks.items[0].name)
+		console.log("Spotify preview URL: " + data.tracks.items[0].preview_url)
+		console.log("Album name: " + data.tracks.items[0].album.name);
+
+		
+		// Prints the artist, track name, preview url, and album name.
+		logOutput("Artist: " + artists);
+		logOutput("Song: " + data.tracks.items[0].name);
+		logOutput("Spotify Preview URL: " + data.tracks.items[0].preview_url);
+		logOutput("Album Name: " + data.tracks.items[0].album.name);
 	});
 	
 }
@@ -261,7 +282,7 @@ function doWhatItSays() {
 				argument = randomArray[1];
 	
 				// Calls main controller to do something based on action and argument.
-				doSomething(action, argument);
+				mainFunction(action, argument);
 			}
 		});
 	}
