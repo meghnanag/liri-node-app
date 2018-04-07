@@ -40,6 +40,10 @@ function mainFunction(action, argument) {
 		case "movie-this":
 
 		// First get movie title argument.
+
+		if (movieTitle) {
+			getMovieInfo(movieTitle);
+		}
 		argument = actualArgument();
 		movieTitle = argument;
 
@@ -234,6 +238,7 @@ function doWhatItSays() {
 				
 				console.log("Action: "+action +"  Argument :"+argument);
 			   songName=argument;
+			   movieTitle=argument;
 				// Calls main controller to do something based on action and argument.
 				mainFunction(action, argument);
 

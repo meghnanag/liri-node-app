@@ -194,3 +194,39 @@
 11:45:19.554 INFO  Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible. 
 11:45:19.554 INFO  Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham 
 11:45:19.554 INFO  Rotten Tomatoes Rating: 63/100 
+11:46:11.636 INFO  Artist: Ace of Base 
+11:46:11.636 INFO  Song: The Sign 
+11:46:11.636 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=ab824636d9d94dc0946e6b18cb834303 
+11:46:11.636 INFO  Album Name: The Sign (US Album) [Remastered] 
+11:46:31.518 INFO  Artist: Ace of Base 
+11:46:31.518 INFO  Song: The Sign 
+11:46:31.518 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=ab824636d9d94dc0946e6b18cb834303 
+11:46:31.518 INFO  Album Name: The Sign (US Album) [Remastered] 
+11:46:51.190 INFO  Artist: Michael Learns To Rock 
+11:46:51.206 INFO  Song: Paint My Love 
+11:46:51.206 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/e5f150fd6b0d583933b30255eb850687e621ed2f?cid=ab824636d9d94dc0946e6b18cb834303 
+11:46:51.206 INFO  Album Name: 19 Love Ballads 
+11:47:21.915 INFO  Artist: Ace of Base 
+11:47:21.915 INFO  Song: The Sign 
+11:47:21.915 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=ab824636d9d94dc0946e6b18cb834303 
+11:47:21.915 INFO  Album Name: The Sign (US Album) [Remastered] 
+11:47:21.940 INFO  Artist: Backstreet Boys 
+11:47:21.941 INFO  Song: I Want It That Way 
+11:47:21.945 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=ab824636d9d94dc0946e6b18cb834303 
+11:47:21.948 INFO  Album Name: The Hits--Chapter One 
+11:55:57.928 INFO  Movie Title: Mr. Nobody 
+11:55:57.928 INFO  Release Year: 2009 
+11:55:57.928 INFO  IMDB Rating: 7.9 
+11:55:57.928 INFO  Country Produced In: Belgium, Germany, Canada, France, USA, UK 
+11:55:57.928 INFO  Language: English, Mohawk 
+11:55:57.928 INFO  Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible. 
+11:55:57.928 INFO  Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham 
+11:55:57.928 INFO  Rotten Tomatoes Rating: 63/100 
+11:56:24.533 INFO  Movie Title: The Exorcist 
+11:56:24.533 INFO  Release Year: 1973 
+11:56:24.533 INFO  IMDB Rating: 8.0 
+11:56:24.533 INFO  Country Produced In: USA 
+11:56:24.533 INFO  Language: English, Latin, Greek, French, German, Arabic, Kurdish 
+11:56:24.533 INFO  Plot: When a teenage girl is possessed by a mysterious entity, her mother seeks the help of two priests to save her daughter. 
+11:56:24.533 INFO  Actors: Ellen Burstyn, Max von Sydow, Lee J. Cobb, Kitty Winn 
+11:56:24.549 INFO  Rotten Tomatoes Rating: 82/100 
