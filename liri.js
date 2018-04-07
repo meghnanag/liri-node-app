@@ -1,6 +1,18 @@
 require("dotenv").config();
 var keys = require("./keys.js");
 
+var Spotify = require("node-spotify-api");
+var spotify = new Spotify(keys.spotify);
+
+// Output file for logs.
+var filename = './log.txt';
+
+// NPM module used for logging solution.
+var log = require('simple-node-logger').createSimpleFileLogger( filename );
+
+// All log information printed to log.txt.
+log.setLevel('all');
+
 // Creates empty string to hold song title.
 var songTitle = "";
 
@@ -58,6 +70,10 @@ function doSomething(action, argument) {
 		randomArgument = argument;
 		doWhatItSays(randomArgument);
 		break;
+
+		default:
+		console.log("I don't know how to do that.Wrong action.Please try again!");
+		break;
 	}
 }
 
@@ -86,7 +102,7 @@ function getMyTweets() {
 	// Search parameters includes my tweets up to last 20 tweets;
 	var params = {q: '@codingteststuff', count: 20};
 
-	// Shows last 20 tweets and when created in terminal.
+	// Shows last 20 tweets and when created in terminal
 	client.get('statuses/user_timeline', params, function(error, tweets, response) {
 	  if (!error) {
 
@@ -123,18 +139,15 @@ function getSongTitle() {
 function lookupSpecificSong() {
 
 	// Access spotify API through spotify module.
-	// ** Will most likely move all of these out of functions!
-	var spotify = require("spotify");
-
 
 	// Calls spotify API to retrieve a specific track, The Sign, Ace of Base.
-	spotify.lookup({type: 'track', id: 'ab824636d9d94dc0946e6b18cb834303'}, function(err, data) {
+	spotify.search({type: 'track', query: "The Sign"}, function(err, data) {
 		if (err) {
 			console.error(err);
 			return
 		}
 
-		console.log(data);
+		//console.log(data);
 
 		// Priting the artist, track name, preview url, and album name.
 		console.log("Artist: " + data.artists[0].name);
@@ -147,8 +160,7 @@ function lookupSpecificSong() {
 function getSongInfo(songTitle) {
 
 	// Access spotify API through spotify module.
-	var spotify = require("spotify");
-
+	
 	console.log("Song title: " + songTitle);
 
 	// Calls spotify API to retrieve a track.
@@ -174,6 +186,13 @@ function getSongInfo(songTitle) {
 		console.log("Song: " + data.tracks.items[0].name)
 		console.log("Spotify preview URL: " + data.tracks.items[0].preview_url)
 		console.log("Album name: " + data.tracks.items[0].album.name);
+
+		
+		// Prints the artist, track name, preview url, and album name.
+		logOutput("Artist: " + data.artists[0].name);
+		logOutput("Song: " + data.name);
+		logOutput("Spotify Preview URL: " + data.preview_url);
+		logOutput("Album Name: " + data.album.name);
 	});
 	
 }
@@ -209,6 +228,16 @@ function getMovieInfo(movieTitle) {
 	    console.log("Actors: " + movie.Actors);
         console.log("Rotten Tomatoes Rating: " + movie.Ratings[2].Value);
 	
+
+		    // Prints out movie info.
+			logOutput("Movie Title: " + movie.Title);
+			logOutput("Release Year: " + movie.Year);
+			logOutput("IMDB Rating: " + movie.imdbRating);
+			logOutput("Country Produced In: " + movie.Country);
+			logOutput("Language: " + movie.Language);
+			logOutput("Plot: " + movie.Plot);
+			logOutput("Actors: " + movie.Actors);
+			logOutput("Rotten Tomatoes Rating: " + movie.Ratings[2].Value);
 	  }
 	});
 }
@@ -217,27 +246,28 @@ function doWhatItSays() {
 
 	var fs = require("fs");
 
-	fs.readFile("random.txt", "utf8", function(err, data) {
-		if (err) {
-			console.error(err);
-		} else {
+		fs.readFile("random.txt", "utf8", function(err, data) {
+			if (err) {
+				logOutput.error(err);
+			} else {
+	
+				// Creates array with data.
+				var randomArray = data.split(",");
+	
+				// Sets action to first item in array.
+				action = randomArray[0];
+	
+				// Sets optional third argument to second item in array.
+				argument = randomArray[1];
+	
+				// Calls main controller to do something based on action and argument.
+				doSomething(action, argument);
+			}
+		});
+	}
 
-
-			randomArray = data.split(",");
-
-
-			console.log(randomArray);
-
-			action = randomArray[0];
-
-			console.log("Random Action: " + action);
-
-			argument = randomArray[1];
-
-			console.log("Random argument: " + argument);
-
-			doSomething(action, argument);
-		}
-	});
+// Logs data to the terminal and output to a text file.
+function logOutput(logText) {
+	log.info(logText);
+	console.log(logText);
 }
-
